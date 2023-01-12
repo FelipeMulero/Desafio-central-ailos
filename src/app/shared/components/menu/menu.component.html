@@ -1,0 +1,31 @@
+<mat-sidenav-container>
+    <mat-sidenav mode="side" opened class="sidenav" fixedInViewport="true">
+        <mat-nav-list>
+            <img style="width: 80px !important;" src="assets/images/logo-ailos.png" 
+            alt="Logo da Ailos">
+
+            <a mat-list-item routerLink="/home" routerLinkActive="active">
+                <mat-icon>menu</mat-icon>
+            </a>
+            <a mat-list-item routerLink="/" routerLinkActive="active">
+                <mat-icon>search</mat-icon>
+            </a>
+            <img routerLink="/favorite" src="assets/images/icon-star.png" 
+            alt="icon-star" class="icon-star">
+            
+            <img routerLink="/messages" src="assets/images/icon-chat.png" 
+            alt="icon-chat" class="icon-chat">
+            
+            <img routerLink="/settings" src="assets/images/icon-categories.png" 
+            alt="icon-categories" class="icon-categories">
+            
+            <img routerLink="/account" src="assets/images/icon-central.png" 
+            alt="icon-central" class="icon-central">
+
+        </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content class="content">
+        <app-stepper></app-stepper>
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>

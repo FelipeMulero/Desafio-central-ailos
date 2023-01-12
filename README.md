@@ -1,6 +1,8 @@
-# Desafio-central-ailos
+# Central-ailos
 
 # Start project
+#npm install
+
 #npm start
 
 # Versão do node
@@ -53,5 +55,4 @@ Insira os seguintes cpf's validos: 54245795742, 34698746515, 35784854924, 052545
 
 # Resumo 
 Este projeto foi gerado com a versão do Angular CLI version 13.2.6.
-
 

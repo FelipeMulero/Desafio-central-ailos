@@ -2,13 +2,11 @@
 Central Ailos
 
 💻 Sobre o projeto
-Foi desenvolvido 2 telas uma para fazer a busca do CPF do cooperado que consta no banco de cpf's e depois de ser validado o CPF vai para a próxima tela onde mostra as informações
-do cooperado.
+Foi desenvolvido 2 telas uma para fazer a busca do CPF do cooperado que consta no banco de cpf's e depois de ser validado o CPF vai para a próxima tela onde mostra as informações do cooperado.
 
 No componente NavBar acessa a tela atraves do campo de busca e quando o usuário tenta acessar as outras telas vem um feedback que elas estão em manutenção.
 
-E através do footer o usuário consegue acessar o modal de 'Check-list para abertura de conta' através do botão 'Dicas para abertura de conta' e no botão 'Iniciar nova admissão'
-é redirecionado para uma tela em manutenção.
+E através do footer o usuário consegue acessar o modal de 'Check-list para abertura de conta' através do botão 'Dicas para abertura de conta' e no botão 'Iniciar nova admissão' é redirecionado para uma tela em manutenção.
 
 Projeto desenvolvido para o desafio central ailos.
 

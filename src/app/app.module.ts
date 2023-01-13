@@ -18,7 +18,7 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatInputModule } from '@angular/material/input';
 import { MatCardModule } from '@angular/material/card';
 import { FooterComponent } from './shared/components/footer/footer.component';
-import { TimelineComponent } from './shared/components/stepper/timeline.component';
+import { TimelineComponent } from './shared/components/timeline/timeline.component';
 import { FavoriteComponent } from './views/favorite/favorite.component';
 import { UserComponent } from './views/users/user.component';
 import { HomeComponent } from './views/home/home.component';
@@ -26,6 +26,7 @@ import { MessagesComponent } from './views/messages/messages.component';
 import { AccountComponent } from './views/account/account.component';
 import { SettingsComponent } from './views/settings/settings.component';
 import { MenuComponent } from './shared/components/menu/menu.component';
+import { ModalComponent } from './shared/components/modal/modal-open-account/modal-open-account.component';
 
 
 @NgModule({
@@ -40,7 +41,8 @@ import { MenuComponent } from './shared/components/menu/menu.component';
     MessagesComponent,
     FavoriteComponent,
     AccountComponent,
-    SettingsComponent
+    SettingsComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,

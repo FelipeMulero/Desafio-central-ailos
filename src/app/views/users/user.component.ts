@@ -1,7 +1,7 @@
 
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { User } from 'src/app/shared/classes/user.model';
+import { User } from 'src/app/shared/models/user.model';
 import { UserService } from 'src/app/shared/services/user.service';
 @Component({
   selector: 'app-user',
@@ -12,18 +12,20 @@ export class UserComponent implements OnInit {
 
   public user!: User;
 
-  constructor(private route: ActivatedRoute, private userService: UserService) { }
+  constructor(
+    private route: ActivatedRoute, 
+    private userService: UserService
+  ) { }
+
   ngOnInit(): void {
-    this.user = this.userService.searchCPF(this.route.snapshot.paramMap.get('Cpf'))
-    console.log(this.cpfIsBlocked())
+    this.user = this.userService.search(this.route.snapshot.paramMap.get('cpf'))
   }
 
-  cpfIsBlocked(): boolean {
-    if (this.user.SituacaoCPF == 'Regular') {
+  hasBlockedCPF(): boolean {
+    if (this.user.verifyCPF == 'Regular') {
       return true
-    } else {
-      return false
     }
+      return false
   }
 
 }

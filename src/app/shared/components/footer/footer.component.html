@@ -1,0 +1,7 @@
+<app-modal [isOpen]="showModal" (close)="showModal = false"></app-modal>
+<mat-toolbar class="footer">
+    <div [hidden]="!service.validateData">
+        <button mat-raised-button (click)="changeMaintenancePage()">Iniciar nova admissão</button>
+    </div>
+    <button mat-raised-button (click)="changeModalOpenAccount()">Dicas para abertura da conta</button>
+</mat-toolbar>

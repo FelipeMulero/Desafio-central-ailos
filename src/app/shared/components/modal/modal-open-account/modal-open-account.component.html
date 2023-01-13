@@ -1,0 +1,29 @@
+<div class="modal" *ngIf="isOpen">
+    <ng-content></ng-content>
+    <div class="container">
+        <div class="title">
+            <span>Check-list para<p>abertura de conta</span>
+        </div>
+        <div class="sub-title">
+            <span>Confira algumas dicas que irão lhe ajudar neste<p>
+                atendimento para que a adimissão aconteça da<p> melhor
+                forma possível.
+            </span>
+        </div>
+        <div class="check-list">
+            <input type="radio" class="square-radio" id="radio1" name="radio" value="1">
+            <label for="radio1"> Conheça o seu cooperado</label>
+        </div>
+        <div class="check-list">
+            <input type="radio" class="square-radio" id="radio1" name="radio" value="1">
+            <label for="radio1"> Fale sobre a Cooperativa</label>
+        </div>
+        <div class="check-list">
+            <input type="radio" class="square-radio" id="radio1" name="radio" value="1">
+            <label for="radio1"> Documentos e comprovações necessárias</label>
+        </div>
+        <div class="btnClose">
+            <button mat-raised-button (click)="closeModal()">Continuar atendimento</button>
+        </div>
+    </div>
+</div>

@@ -1,56 +1,65 @@
 # Central-ailos
 
-# Start project
+# Informações para iniciar o projeto
+#Versão do node
+^12.11.1
+
+#Angular CLI 
+13.2.6.
+
 #npm install
 
 #npm start
 
-# Versão do node
-#^12.11.1
 # Porta de acesso http
 http://localhost:4200/
 
 # Como fazer o teste
-Insira os seguintes cpf's validos: 54245795742, 34698746515, 35784854924, 05254575896, 11122233344.
+Utilize os seguintes cpf's para testar o sistema: 
+11122233344, 
+78198746512, 
+90384854921, 
+13674575896, 
+61045795747.
 
 # MOCK TO TEST
 
 [
     {
-        Cpf: '54245795742',
-        Nome: "João Vitor de Jesus Casali Dal'Posso",
-        ContaAplicacao: '921812-5',
-        ContaCorrente: '872151-5',
-        SituacaoCPF: 'Regular'
+        cpf: '11122233344',
+        name: 'Marieane de Souza Oliveira',
+        aplicationAccount: '557932-4',  //Conta aplicação
+        checkingAccount: '778461-8',    //Conta recorrente
+        verifyCPF: 'Regular'
     },
     {
-        Cpf: '34698746515',
-        Nome: 'Maria',
-        ContaAplicacao: '912734-5',
-        ContaCorrente: '092164-5',
-        SituacaoCPF: 'Bloqueado'
+        cpf: '78198746512',
+        name: 'Roberto Conceição',
+        aplicationAccount: '912734-5',  //Conta aplicação
+        checkingAccount: '092164-5',    //Conta recorrente
+        verifyCPF: 'Bloqueado'
     },
     {
-        Cpf: '35784854924',
-        Nome: 'Rdorigo Casali',
-        ContaAplicacao: '621741-5',
-        ContaCorrente: '543127-5',
-        SituacaoCPF: 'Regular'
+        cpf: '90384854921',
+        name: 'Henrique das Flores',
+        aplicationAccount: '621741-5',  //Conta aplicação
+        checkingAccount: '543127-5',    //Conta recorrente
+        verifyCPF: 'Regular'
     },
     {
-        Cpf: '05254575896',
-        Nome: 'Jozé Farias da Silva',
-        ContaAplicacao: '234618-5',
-        ContaCorrente: '712089-5',
-        SituacaoCPF: 'Regular'
+        cpf: '13674575896',
+        name: 'Guilherme Silvano',
+        aplicationAccount: '234618-5',  //Conta aplicação
+        checkingAccount: '712089-5',    //Conta recorrente
+        verifyCPF: 'Regular'
     },
     {
-        Cpf: '11122233344',
-        Nome: 'Marieane de Souza Oliveira',
-        ContaAplicacao: '557932-4',
-        ContaCorrente: '778461-8',
-        SituacaoCPF: 'Regular'
-    }
+        cpf: '61045795747',
+        name: "Emanuel Bezerro",
+        aplicationAccount: '921812-5',  //Conta aplicação
+        checkingAccount: '872151-5',    //Conta recorrente
+        verifyCPF: 'Regular'
+    },
 ]
 
 # Resumo 

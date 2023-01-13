@@ -1,4 +1,4 @@
-<app-home [data]="user.Cpf" [main]="false"></app-home>
+<app-home [data]="user.cpf" [verifyInitRender]="false"></app-home>
 
 <div class="cards">
     <mat-card>
@@ -9,19 +9,19 @@
                 <mat-icon>person</mat-icon>
                 <div class="data">
                     <p class="label">Nome</p>
-                    <p class="info">{{user.Nome}}</p>
+                    <p class="info">{{user.name}}</p>
                 </div>
             </div>
             <div class="row">
-                <div [hidden]="cpfIsBlocked()">
+                <div [hidden]="hasBlockedCPF()">
                     <mat-icon style="color: red;">highlight_off</mat-icon>
                 </div>
-                <div [hidden]="!cpfIsBlocked()">
+                <div [hidden]="!hasBlockedCPF()">
                     <mat-icon style="color: green;">check_circle_outline</mat-icon>
                 </div>
                 <div class="data">
                     <p class="label">Situação do CPF</p>
-                    <p class="info">{{user.SituacaoCPF}}</p>
+                    <p class="info">{{user.verifyCPF}}</p>
                 </div>
             </div>
 
@@ -35,7 +35,7 @@
                 <mat-icon>credit_card</mat-icon>
                 <div class="data">
                     <p class="label">Número de conta</p>
-                    <p class="info">{{user.ContaAplicacao}}</p>
+                    <p class="info">{{user.aplicationAccount}}</p>
                 </div>
             </div>
             <a>Duplicar conta</a>
@@ -49,7 +49,7 @@
                 <mat-icon>credit_card</mat-icon>
                 <div class="data">
                     <p class="label">Número de conta</p>
-                    <p class="info">{{user.ContaCorrente}}</p>
+                    <p class="info">{{user.checkingAccount}}</p>
                 </div>
             </div>
             <a>Duplicar conta</a>

@@ -4,8 +4,8 @@
     <p>Digite apenas os números (sem pontos ou traços).</p>
 </div>
 <br/>
-<form [formGroup]="FormCPF" (ngSubmit)="onSubmit()" autocomplete="off">
+<form [formGroup]="cpf" (ngSubmit)="verifyCpfUser()" autocomplete="off">
     <label>CPF</label>
-    <input matInput formControlName="Cpf" placeholder="000.000.000-00" mask="000.000.000-00" [(ngModel)]="data">
-    <button mat-raised-button type="submit" [disabled]="!main">Consultar por CPF</button>
+    <input matInput formControlName="cpf" placeholder="000.000.000-00" mask="000.000.000-00" [(ngModel)]="data">
+    <button mat-raised-button type="submit" [disabled]="!verifyInitRender">Consultar por CPF</button>
 </form>

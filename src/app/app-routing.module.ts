@@ -10,7 +10,7 @@ import { SettingsComponent } from './views/settings/settings.component';
 const routes: Routes = [
   { path: '', redirectTo: 'search', pathMatch: 'full' },
   { path: 'search', component: HomeComponent },
-  { path: 'user/:Cpf', component: UserComponent },
+  { path: 'user/:cpf', component: UserComponent },
   { path: 'favorite', component: FavoriteComponent },
   { path: 'messages', component: MessagesComponent },
   { path: 'account', component: AccountComponent },

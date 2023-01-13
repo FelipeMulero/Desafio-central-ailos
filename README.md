@@ -1,9 +1,9 @@
 # Central-ailos
 
-# Link do Projeto 
+# Link do Projeto online
 https://central-ailos.netlify.app
 
-# Informações para iniciar o projeto
+# Informações para iniciar o projeto local
 #Versão do node
 ^12.11.1
 
@@ -25,7 +25,7 @@ Utilize os seguintes cpf's para testar o sistema:
 13674575896, 
 61045795747.
 
-# MOCK TO TEST
+# Mock do teste
 
     {
         cpf: '11122233344',

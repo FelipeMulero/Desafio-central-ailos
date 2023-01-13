@@ -1,7 +1,7 @@
 
 Central Ailos
 
-💻 Sobre o projeto
+# 💻 Sobre o projeto: 
 Foi desenvolvido 2 telas uma para fazer a busca do CPF do cooperado que consta no banco de cpf's e depois de ser validado o CPF vai para a próxima tela onde mostra as informações do cooperado.
 
 No componente NavBar acessa a tela atraves do campo de busca e quando o usuário tenta acessar as outras telas vem um feedback que elas estão em manutenção.
@@ -10,16 +10,16 @@ E através do footer o usuário consegue acessar o modal de 'Check-list para abe
 
 Projeto desenvolvido para o desafio central ailos.
 
-💡 Autor
+# 💡 Autor: 
 Felipe Mulero
 
-Links úteis
+# Links úteis
 
 Aplicação em Produção:
 https://central-ailos.netlify.app
 
 
-🛠️ Tecnologias utilizadas
+# 🛠️ Tecnologias utilizadas
 Frontend
 
 Angular
@@ -30,7 +30,7 @@ TypeScript
 Angular Material
 Netlify
 
-📌 Funcionalidades
+# 📌 Funcionalidades
 Atualização de conteúdo em tempo real para o usuário.
 Usuário consegue visualizar os conteúdos que estão todos disponíveis na tela.
 Administrador consegue visualizar quantos usuários concluíram aquele conteúdo.
@@ -48,7 +48,7 @@ Adicionar um módulo de dashboad
 Edição do perfil de usuário;
 Edição de conteúdos já criados;
 
-Informações para iniciar o projeto local:
+# Informações para iniciar o projeto local:
 #Versão do node
 ^12.11.1
 
@@ -59,11 +59,11 @@ Informações para iniciar o projeto local:
 
 #npm start
 
-Porta de acesso http:
+# Porta de acesso http:
 
 http://localhost:4200/
 
-Como fazer o teste
+# Como fazer o teste
 
 Utilize os seguintes cpf's para testar o sistema: 
 11122233344, 
@@ -72,7 +72,7 @@ Utilize os seguintes cpf's para testar o sistema:
 13674575896, 
 61045795747.
 
-Mock do teste:
+# Mock do teste:
 
     {
         cpf: '11122233344',

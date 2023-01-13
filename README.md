@@ -13,7 +13,7 @@ Projeto desenvolvido para o desafio central ailos.
 # 💡 Autor: 
 Felipe Mulero
 
-# Links úteis
+# Link útil
 
 Aplicação em Produção:
 https://central-ailos.netlify.app
@@ -22,18 +22,18 @@ https://central-ailos.netlify.app
 # 🛠️ Tecnologias utilizadas
 Frontend
 
-Angular
-ngx
-rxjs
-SCSS
-TypeScript
-Angular Material
-Netlify
+Angular,
+ngx,
+rxjs,
+SCSS,
+TypeScript,
+Angular Material,
+Netlify.
 
 # 📌 Funcionalidades
-Atualização de conteúdo em tempo real para o usuário.
-Usuário consegue visualizar os conteúdos que estão todos disponíveis na tela.
-Administrador consegue visualizar quantos usuários concluíram aquele conteúdo.
+# Atualização de conteúdo em tempo real para o usuário.
+# Usuário consegue visualizar os conteúdos que estão todos disponíveis na tela.
+# Administrador consegue visualizar quantos usuários concluíram aquele conteúdo.
 
 Futuras melhorias
 
@@ -44,13 +44,13 @@ o tratamento dos cpf's com uma Api externa.
 
 Também será possível:
 
-Adicionar um módulo de dashboad
-Edição do perfil de usuário;
-Edição de conteúdos já criados;
+# Adicionar um módulo de dashboad
+# Edição do perfil de usuário;
+# Edição de conteúdos já criados;
 
 # Informações para iniciar o projeto local:
-#Versão do node
-^12.11.1
+# Opção de versão do node 
+14.16.0
 
 #Angular CLI 
 13.2.6.

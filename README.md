@@ -60,6 +60,4 @@ Utilize os seguintes cpf's para testar o sistema:
         verifyCPF: 'Regular'
     },
 
-# Resumo 
-Este projeto foi gerado com a versão do Angular CLI version 13.2.6.
 

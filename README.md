@@ -24,7 +24,6 @@ Utilize os seguintes cpf's para testar o sistema:
 
 # MOCK TO TEST
 
-[
     {
         cpf: '11122233344',
         name: 'Marieane de Souza Oliveira',
@@ -60,7 +59,6 @@ Utilize os seguintes cpf's para testar o sistema:
         checkingAccount: '872151-5',    //Conta recorrente
         verifyCPF: 'Regular'
     },
-]
 
 # Resumo 
 Este projeto foi gerado com a versão do Angular CLI version 13.2.6.

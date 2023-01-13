@@ -31,9 +31,9 @@ Angular Material,
 Netlify.
 
 # 📌 Funcionalidades
-# Atualização de conteúdo em tempo real para o usuário.
-# Usuário consegue visualizar os conteúdos que estão todos disponíveis na tela.
-# Administrador consegue visualizar quantos usuários concluíram aquele conteúdo.
+Atualização de conteúdo em tempo real para o usuário.
+Usuário consegue visualizar os conteúdos que estão todos disponíveis na tela.
+Usuario consegue interagir com todos os conteúdos disponíveis na tela.
 
 Futuras melhorias
 
@@ -44,12 +44,12 @@ o tratamento dos cpf's com uma Api externa.
 
 Também será possível:
 
-# Adicionar um módulo de dashboad
-# Edição do perfil de usuário;
-# Edição de conteúdos já criados;
+Adicionar um módulo de dashboad,
+Edição do perfil de usuário,
+Edição de conteúdos já criados.
 
 # Informações para iniciar o projeto local:
-# Opção de versão do node 
+#Opção de versão do node 
 14.16.0
 
 #Angular CLI 
